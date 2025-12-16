@@ -1,0 +1,196 @@
+[
+    {
+        "model": "crm.client",
+        "pk": 1,
+        "fields": {
+            "name": "John Doe",
+            "phone": "+380501111111",
+            "email": "john.doe@example.com",
+            "created_at": "2025-12-10T09:00:00Z"
+        }
+    },
+    {
+        "model": "crm.client",
+        "pk": 2,
+        "fields": {
+            "name": "Jane Smith",
+            "phone": "+380502222222",
+            "email": "jane.smith@example.com",
+            "created_at": "2025-12-10T09:05:00Z"
+        }
+    },
+    {
+        "model": "crm.client",
+        "pk": 3,
+        "fields": {
+            "name": "Michael Brown",
+            "phone": "+380503333333",
+            "email": "michael.brown@example.com",
+            "created_at": "2025-12-10T09:10:00Z"
+        }
+    },
+    {
+        "model": "crm.client",
+        "pk": 4,
+        "fields": {
+            "name": "Emily Johnson",
+            "phone": "+380504444444",
+            "email": "emily.johnson@example.com",
+            "created_at": "2025-12-10T09:15:00Z"
+        }
+    },
+    {
+        "model": "crm.client",
+        "pk": 5,
+        "fields": {
+            "name": "David Wilson",
+            "phone": "+380505555555",
+            "email": "david.wilson@example.com",
+            "created_at": "2025-12-10T09:20:00Z"
+        }
+    },
+
+    {
+        "model": "crm.deal",
+        "pk": 1,
+        "fields": {
+            "client": 1,
+            "title": "Website Redesign",
+            "amount": "1200.00",
+            "status": "new",
+            "created_at": "2025-12-10T10:00:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 2,
+        "fields": {
+            "client": 1,
+            "title": "SEO Optimization",
+            "amount": "600.00",
+            "status": "in_progress",
+            "created_at": "2025-12-10T10:10:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 3,
+        "fields": {
+            "client": 2,
+            "title": "Mobile App MVP",
+            "amount": "3500.00",
+            "status": "in_progress",
+            "created_at": "2025-12-10T10:20:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 4,
+        "fields": {
+            "client": 2,
+            "title": "App Maintenance",
+            "amount": "800.00",
+            "status": "won",
+            "created_at": "2025-12-10T10:30:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 5,
+        "fields": {
+            "client": 3,
+            "title": "E-commerce Platform",
+            "amount": "5200.00",
+            "status": "new",
+            "created_at": "2025-12-10T10:40:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 6,
+        "fields": {
+            "client": 3,
+            "title": "Payment Gateway Integration",
+            "amount": "900.00",
+            "status": "lost",
+            "created_at": "2025-12-10T10:50:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 7,
+        "fields": {
+            "client": 4,
+            "title": "Landing Page Design",
+            "amount": "450.00",
+            "status": "won",
+            "created_at": "2025-12-10T11:00:00Z"
+        }
+    },
+    {
+        "model": "crm.deal",
+        "pk": 8,
+        "fields": {
+            "client": 5,
+            "title": "CRM Customization",
+            "amount": "2100.00",
+            "status": "in_progress",
+            "created_at": "2025-12-10T11:10:00Z"
+        }
+    },
+
+    {
+        "model": "crm.note",
+        "pk": 1,
+        "fields": {
+            "deal": 1,
+            "text": "Client requested a proposal by the end of the week.",
+            "created_at": "2025-12-10T12:00:00Z"
+        }
+    },
+    {
+        "model": "crm.note",
+        "pk": 2,
+        "fields": {
+            "deal": 1,
+            "text": "Waiting for initial feedback on design mockups.",
+            "created_at": "2025-12-10T12:05:00Z"
+        }
+    },
+    {
+        "model": "crm.note",
+        "pk": 3,
+        "fields": {
+            "deal": 2,
+            "text": "SEO audit completed, implementation in progress.",
+            "created_at": "2025-12-10T12:10:00Z"
+        }
+    },
+    {
+        "model": "crm.note",
+        "pk": 4,
+        "fields": {
+            "deal": 3,
+            "text": "Client approved the technical specification.",
+            "created_at": "2025-12-10T12:15:00Z"
+        }
+    },
+    {
+        "model": "crm.note",
+        "pk": 5,
+        "fields": {
+            "deal": 3,
+            "text": "First sprint completed successfully.",
+            "created_at": "2025-12-10T12:20:00Z"
+        }
+    },
+    {
+        "model": "crm.note",
+        "pk": 6,
+        "fields": {
+            "deal": 5,
+            "text": "High priority deal, potential long-term client.",
+            "created_at": "2025-12-10T12:25:00Z"
+        }
+    }
+]
